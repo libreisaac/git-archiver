@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function process_lines() {
   while IFS= read -r string; do
     "$1" "$string"
