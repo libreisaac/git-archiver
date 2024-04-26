@@ -19,3 +19,11 @@ git@github.com:libreisaac/git-archiver.git
 ```
 
 Note that duplicates are OK; the second will just fail to clone as it already exists.
+
+You can clone a repository into a different directory than the default (based on repository name) like:
+
+```
+https://github.com/libreisaac/git-archiver some-other-directory
+```
+
+Each line is passed as a raw argument to the clone function in the clone script; don't do anything stupid.
